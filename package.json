@@ -1,0 +1,21 @@
+{
+  "name": "next-on-netlify-auth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-on-netlify",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "10.0.6",
+    "next-auth": "3.4.1",
+    "next-on-netlify": "2.8.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "optionalDependencies": {
+    "mongodb": "3.6.4"
+  }
+}
